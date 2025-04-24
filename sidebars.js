@@ -375,7 +375,7 @@ module.exports = {
       ],
     },
     [
-      require("./docs/reference/sidebar.json")
+      require("./docs/controls-v1/sidebar.json")
     ],
     {
       type: "category",
