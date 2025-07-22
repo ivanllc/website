@@ -23,72 +23,72 @@ Flet Controls you use in your awesome applications.
 
 Below is the complete list:
 
-- [`AppBar`](https://flet.dev/docs/controls/appbar): elevation_on_scroll, exclude_header_semantics,
+- [`AppBar`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/appbar): elevation_on_scroll, exclude_header_semantics,
   force_material_transparency, is_secondary, shadow_color, surface_tint_color, clip_behavior, title_spacing,
   toolbar_opacity, title_text_style, toolbar_text_style, shape
-- [`AlertDialog`](https://flet.dev/docs/controls/alertdialog): action_button_padding, clip_behavior, icon_padding,
+- [`AlertDialog`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/alertdialog): action_button_padding, clip_behavior, icon_padding,
   shadow_color, surface_tint_color
-- [`Banner`](https://flet.dev/docs/controls/banner): content_text_style, margin, elevation, divider_color, shadow_color,
+- [`Banner`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/banner): content_text_style, margin, elevation, divider_color, shadow_color,
   surface_tint_color, on_visible
-- [`CupertinoListTile`](https://flet.dev/docs/controls/cupertinolisttile): leading_size, leading_to_title
-- [`CupertinoSegmentedButton`](https://flet.dev/docs/controls/cupertinosegmentedbutton): click_color
-- [`CupertinoSwitch`](https://flet.dev/docs/controls/cupertinoswitch):on_label_color, off_label_color
-- [`CupertinoTimerPicker`](https://flet.dev/docs/controls/cupertinotimerpicker): item_extent
-- [`Chip`](https://flet.dev/docs/controls/chip): surface_tint_color, color, click_elevation, clip_behavior,
+- [`CupertinoListTile`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/cupertinolisttile): leading_size, leading_to_title
+- [`CupertinoSegmentedButton`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/cupertinosegmentedbutton): click_color
+- [`CupertinoSwitch`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/cupertinoswitch):on_label_color, off_label_color
+- [`CupertinoTimerPicker`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/cupertinotimerpicker): item_extent
+- [`Chip`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/chip): surface_tint_color, color, click_elevation, clip_behavior,
   visual_density, border_side
-- [`Divider`](https://flet.dev/docs/controls/divider): leading_indent, trailing_indent
-- [`ExpansionTile`](https://flet.dev/docs/controls/expansiontile): dense, enable_feedback, visual_density
-- [`Card`](https://flet.dev/docs/controls/card): clip_behavior, is_semantic_container, show_border_on_foreground,
+- [`Divider`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/divider): leading_indent, trailing_indent
+- [`ExpansionTile`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/expansiontile): dense, enable_feedback, visual_density
+- [`Card`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/card): clip_behavior, is_semantic_container, show_border_on_foreground,
   variant
-- [`Checkbox`](https://flet.dev/docs/controls/checkbox): border_side, semantics_label, shape, splash_radius, is_error,
+- [`Checkbox`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/checkbox): border_side, semantics_label, shape, splash_radius, is_error,
   visual_density, mouse_cursor
-- [`CircleAvatar`](https://flet.dev/docs/controls/circleavatar): on_image_error
-- [`DataTable`](https://flet.dev/docs/controls/datatable): clip_behavior
-- [`DatePicker`](https://flet.dev/docs/controls/datepicker): on_entry_mode_change
-- [`Draggable`](https://flet.dev/docs/controls/draggable): on_drag_complete, on_drag_start
-- [`DragTarget`](https://flet.dev/docs/controls/dragtarget): on_move
-- [`Dropdown`](https://flet.dev/docs/controls/dropdown): fill_color, hint_content, icon_content, elevation, item_height,
+- [`CircleAvatar`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/circleavatar): on_image_error
+- [`DataTable`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/datatable): clip_behavior
+- [`DatePicker`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/datepicker): on_entry_mode_change
+- [`Draggable`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/draggable): on_drag_complete, on_drag_start
+- [`DragTarget`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/dragtarget): on_move
+- [`Dropdown`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/dropdown): fill_color, hint_content, icon_content, elevation, item_height,
   max_menu_height, icon_size, enable_feedback, padding, icon_enabled_color, icon_disabled_color, on_click
-- [`ElevatedButton`](https://flet.dev/docs/controls/elevatedbutton): clip_behavior
-- [`FloatingActionButton`](https://flet.dev/docs/controls/floatingactionbutton): clip_behavior, enable_feedback,
+- [`ElevatedButton`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/elevatedbutton): clip_behavior
+- [`FloatingActionButton`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/floatingactionbutton): clip_behavior, enable_feedback,
   focus_color, foreground_color, disabled_elevation, elevation, focus_elevation, highlight_elevation, hover_elevation,
   mouse_cursor
-- [`GridView`](https://flet.dev/docs/controls/gridview): cache_extent, clip_behavior, semantic_child_count
-- [`IconButton`](https://flet.dev/docs/controls/iconbutton): alignment, disabled_color, focus_color, enable_feedback,
+- [`GridView`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/gridview): cache_extent, clip_behavior, semantic_child_count
+- [`IconButton`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/iconbutton): alignment, disabled_color, focus_color, enable_feedback,
   hover_color, padding, splash_color, splash_radius, focus_color, mouse_cursor, visual_density
-- [`Image`](https://flet.dev/docs/controls/image): exclude_from_semantics, filter_quality
-- [`ListTile`](https://flet.dev/docs/controls/listtile): enable_feedback, horizontal_spacing, min_leading_width,
+- [`Image`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/image): exclude_from_semantics, filter_quality
+- [`ListTile`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/listtile): enable_feedback, horizontal_spacing, min_leading_width,
   min_vertical_padding, selected_color, selected_tile_color, style, title_alignment, icon_color, text_color, shape,
   visual_density, mouse_cursor, title_text_style, subtitle_text_style, leading_and_trailing_text_style
-- [`ListView`](https://flet.dev/docs/controls/listview): cache_extent, clip_behavior, semantic_child_count
-- [`NavigationBar`](https://flet.dev/docs/controls/navigationbar): animation_duration, overlay_color
-- [`NavigationDrawerDestination`](https://flet.dev/docs/controls/navigationdrawer): bgcolor
-- [`NavigationBarDestination`](https://flet.dev/docs/controls/navigationbardestination): bgcolor
-- [`NavigationRail`](https://flet.dev/docs/controls/navigationrail): selected_label_text_style,
+- [`ListView`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/listview): cache_extent, clip_behavior, semantic_child_count
+- [`NavigationBar`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/navigationbar): animation_duration, overlay_color
+- [`NavigationDrawerDestination`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/navigationdrawer): bgcolor
+- [`NavigationBarDestination`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/navigationbardestination): bgcolor
+- [`NavigationRail`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/navigationrail): selected_label_text_style,
   unselected_label_text_style
-- [`NavigationRailDestination`](https://flet.dev/docs/controls/navigationrail): indicator_color, indicator_shape
-- [`Option`](https://flet.dev/docs/controls/dropdown#option-properties): alignment, on_click
-- [`OutlinedButton`](https://flet.dev/docs/controls/outlinedbutton): clip_behavior
-- [`Page`](https://flet.dev/docs/controls/page): locale_configuration
-- [`PopupMenuItem`](https://flet.dev/docs/controls/popupmenubutton#popupmenuitem-properties): height, padding,
+- [`NavigationRailDestination`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/navigationrail): indicator_color, indicator_shape
+- [`Option`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/dropdown#option-properties): alignment, on_click
+- [`OutlinedButton`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/outlinedbutton): clip_behavior
+- [`Page`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/page): locale_configuration
+- [`PopupMenuItem`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/popupmenubutton#popupmenuitem-properties): height, padding,
   mouse_cursor
-- [`PopupMenuButton`](https://flet.dev/docs/controls/popupmenubutton): bgcolor, clip_behavior, elevation,
+- [`PopupMenuButton`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/popupmenubutton): bgcolor, clip_behavior, elevation,
   enable_feedback, icon_color, shadow_color, surface_tint_color, icon_size, padding, splash_radius, shape, on_open,
   on_cancel
-- [`ProgressBar`](https://flet.dev/docs/controls/progressbar): border_radius, semantics_label, semantics_value
-- [`ProgressRing`](https://flet.dev/docs/controls/progressring): semantics_label, semantics_value, stroke_cap,
+- [`ProgressBar`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/progressbar): border_radius, semantics_label, semantics_value
+- [`ProgressRing`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/progressring): semantics_label, semantics_value, stroke_cap,
   stroke_align
-- [`Radio`](https://flet.dev/docs/controls/radio): focus_color, hover_color, overlay_color, splash_radius, toggleable,
+- [`Radio`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/radio): focus_color, hover_color, overlay_color, splash_radius, toggleable,
   visual_density, mouse_cursor
-- [`SearchBar`](https://flet.dev/docs/controls/searchbar): keyboard_type, view_surface_tint_color, autofocus
-- [`SelectionArea`](https://flet.dev/docs/controls/selectionarea): on_change
-- [`Slider`](https://flet.dev/docs/controls/slider): interaction, overlay_color, mouse_cursor, secondary_track_value,
+- [`SearchBar`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/searchbar): keyboard_type, view_surface_tint_color, autofocus
+- [`SelectionArea`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/selectionarea): on_change
+- [`Slider`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/slider): interaction, overlay_color, mouse_cursor, secondary_track_value,
   secondary_active_color
-- [`Stack`](https://flet.dev/docs/controls/stack): alignment, fit
-- [`SnackBar`](https://flet.dev/docs/controls/snackbar): clip_behavior, shape, on_visible, action_overflow_threshold
-- [`Switch`](https://flet.dev/docs/controls/switch): hover_color, splash_radius, overlay_color, track_outline_color,
+- [`Stack`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/stack): alignment, fit
+- [`SnackBar`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/snackbar): clip_behavior, shape, on_visible, action_overflow_threshold
+- [`Switch`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/switch): hover_color, splash_radius, overlay_color, track_outline_color,
   mouse_cursor
-- [`Tabs`](https://flet.dev/docs/controls/tabs): divider_height, enable_feedback, indicator_thickness, is_secondary,
+- [`Tabs`](https://flet.devhttps://docs.flet-docs.pages.dev/controls/tabs): divider_height, enable_feedback, indicator_thickness, is_secondary,
   mouse_cursor, clip_behavior
 - [`TextField`](https://flet.dev/docs/controls/textfield): fill_color, hover_color
 - [`TimePicker`](https://flet.dev/docs/controls/timepicker): orientation, on_entry_mode_change

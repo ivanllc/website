@@ -26,7 +26,7 @@ Moving to a `key` is particularly exciting as it allows simulating the navigatio
 
 Check the [source code](https://github.com/flet-dev/examples/blob/main/python/controls/column/column-scroll-to-key.py) of the example above.
 
-See [`Column.scroll_to`](/docs/controls/column#scroll_tooffset-delta-key-duration-curve) for more details about controlling scroll position.
+See [`Column.scroll_to`](https://docs.flet-docs.pages.dev/controls/column#scroll_tooffset-delta-key-duration-curve) for more details about controlling scroll position.
 
 ## Receiving scroll notifications
 
@@ -58,7 +58,7 @@ def main(page: ft.Page):
 ft.app(main)
 ```
 
-See [`Column.on_scroll`](/docs/controls/column#on_scroll) for more details about scroll notification.
+See [`Column.on_scroll`](https://docs.flet-docs.pages.dev/controls/column#on_scroll) for more details about scroll notification.
 
 Check [infinite scroll example](https://github.com/flet-dev/examples/blob/main/python/controls/column/column-infinite-list.py).
 
@@ -82,7 +82,7 @@ page.theme = ft.Theme(
 )
 ```
 
-See [`ColorScheme` class](/docs/reference/types/colorscheme) for more details.
+See [`ColorScheme` class](https://docs.flet-docs.pages.dev/reference/types/colorscheme) for more details.
 
 ## Nested themes
 
@@ -141,7 +141,7 @@ ft.app(main)
 
 You can now customize the look and fill of scrollbars in your application (or a particular scroillbar with [nested themes](#nested-themes)).
 
-It could be done via [`page.theme.scrollbar_theme`](/docs/reference/types/scrollbartheme) property, for example:
+It could be done via [`page.theme.scrollbar_theme`](https://docs.flet-docs.pages.dev/reference/types/scrollbartheme) property, for example:
 
 ```python
 page.theme = ft.Theme(
@@ -169,7 +169,7 @@ page.theme = ft.Theme(
 
 ## Text theming
 
-Material 3 design defines [5 groups of text styles with 3 sizes in each group](/docs/controls/text#pre-defined-theme-text-styles): "Display", "Headline", "Title", "Label" and "Body" which are used across Flet controls. You can now customize each of those styles with `page.theme.text_theme`, for example:
+Material 3 design defines [5 groups of text styles with 3 sizes in each group](https://docs.flet-docs.pages.dev/controls/text#pre-defined-theme-text-styles): "Display", "Headline", "Title", "Label" and "Body" which are used across Flet controls. You can now customize each of those styles with `page.theme.text_theme`, for example:
 
 ```python
 import flet as ft
@@ -188,11 +188,11 @@ ft.app(main)
 
 Apparently, `Body Medium` is used by `Text` control as a default style.
 
-See [`TextTheme` class](/docs/reference/types/texttheme) for more details.
+See [`TextTheme` class](https://docs.flet-docs.pages.dev/reference/types/texttheme) for more details.
 
 ## Tabs theming
 
-You can now control the look and feel of `Tabs` control. In this release `Tabs` adds a bunch of new properties and there is a new [`page.theme.tabs_theme`](/docs/reference/types/tabstheme) property to style all tabs in your app:
+You can now control the look and feel of `Tabs` control. In this release `Tabs` adds a bunch of new properties and there is a new [`page.theme.tabs_theme`](https://docs.flet-docs.pages.dev/reference/types/tabstheme) property to style all tabs in your app:
 
 ```python
 page.theme = ft.Theme(
@@ -212,7 +212,7 @@ page.theme = ft.Theme(
 
 <img src="/img/blog/theme-scrolling/tabs-theme.png"  className="screenshot-60" />
 
-See [`TabsTheme` class](/docs/reference/types/tabstheme) for more details.
+See [`TabsTheme` class](https://docs.flet-docs.pages.dev/reference/types/tabstheme) for more details.
 
 ## Other changes
 
@@ -228,7 +228,7 @@ Color emoji support in web apps are back! In Flutter 3.7 color emoji were disabl
 ft.app(main, use_color_emoji=True)
 ```
 
-and [use `--use-color-emoji` switch](/docs/publish/web/static-website#color-emojis) when publishing app as a static side.
+and [use `--use-color-emoji` switch](https://docs.flet-docs.pages.dev/publish/web/static-website#color-emojis) when publishing app as a static side.
 
 That's all for today!
 

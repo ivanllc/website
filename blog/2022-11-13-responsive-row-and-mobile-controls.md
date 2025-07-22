@@ -9,7 +9,7 @@ We just released [Flet 0.1.65](https://pypi.org/project/flet/0.1.65/) which is a
 
 ## `ResponsiveRow` control
 
-`ResponsiveRow` borrows the idea of grid layout from [Bootstrap](https://getbootstrap.com/docs/5.2/layout/grid/) web framework.
+`ResponsiveRow` borrows the idea of grid layout from [Bootstrap](https://getbootstrap.comhttps://docs.flet-docs.pages.dev/5.2/layout/grid/) web framework.
 
 `ResponsiveRow` allows aligning child controls to virtual columns. By default, a virtual grid has 12 columns, but that can be customized with `ResponsiveRow.columns` property.
 
@@ -111,11 +111,11 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
-`ResponsiveRow` [docs](/docs/controls/responsiverow), [example](https://github.com/flet-dev/examples/blob/main/python/controls/responsive-row/responsive-layout.py).
+`ResponsiveRow` [docs](https://docs.flet-docs.pages.dev/controls/responsiverow), [example](https://github.com/flet-dev/examples/blob/main/python/controls/responsive-row/responsive-layout.py).
 
 ## Other new controls
 
-This release adds new visual and non-visual controls requested by Flet community and also required to build UI of the upcoming [Flet Studio](/docs/cookbook/mobile-support#flet-studio-for-ios-and-android).
+This release adds new visual and non-visual controls requested by Flet community and also required to build UI of the upcoming [Flet Studio](https://docs.flet-docs.pages.dev/cookbook/mobile-support#flet-studio-for-ios-and-android).
 
 ### BottomSheet
 
@@ -123,7 +123,7 @@ Shows a modal Material Design bottom sheet:
 
 <img src="/img/docs/controls/bottom-sheet/bottom-sheet-sample.gif" className="screenshot-30"/>
 
-`BottomSheet` [docs](/docs/controls/bottomsheet), [example](https://github.com/flet-dev/examples/blob/main/python/controls/bottom-sheet/modal-bottom-sheet.py).
+`BottomSheet` [docs](https://docs.flet-docs.pages.dev/controls/bottomsheet), [example](https://github.com/flet-dev/examples/blob/main/python/controls/bottom-sheet/modal-bottom-sheet.py).
 
 ### NavigationBar
 
@@ -131,7 +131,7 @@ Bottom Navigation bar which offers a persistent and convenient way to switch bet
 
 <img src="/img/docs/controls/navigation-bar/navigation-bar-sample.gif" className="screenshot-40"/>
 
-`NavigationBar` [docs](/docs/controls/navigationbar), [example](https://github.com/flet-dev/examples/blob/main/python/controls/navigation-bar/navigation-bar-sample.py).
+`NavigationBar` [docs](https://docs.flet-docs.pages.dev/controls/navigationbar), [example](https://github.com/flet-dev/examples/blob/main/python/controls/navigation-bar/navigation-bar-sample.py).
 
 ### Tooltip
 
@@ -139,19 +139,19 @@ A tooltip control:
 
 <img src="/img/docs/controls/tooltip/custom-tooltip.gif" className="screenshot-30"/>
 
-`Tooltip` [docs](/docs/reference/types/tooltip), [example](https://github.com/flet-dev/examples/blob/main/python/controls/tooltip/custom-tooltip.py).
+`Tooltip` [docs](https://docs.flet-docs.pages.dev/reference/types/tooltip), [example](https://github.com/flet-dev/examples/blob/main/python/controls/tooltip/custom-tooltip.py).
 
 ### HapticFeedback
 
 Allows access to the haptic feedback (clicks and vibrates) interface on the device.
 
-`HapticFeedback` [docs](/docs/controls/hapticfeedback).
+`HapticFeedback` [docs](https://docs.flet-docs.pages.dev/controls/hapticfeedback).
 
 ### ShakeDetector
 
 A control to detect phone shakes. Based on [shake](https://pub.dev/packages/shake) widget.
 
-`ShakeDetector` [docs](/docs/controls/shakedetector).
+`ShakeDetector` [docs](https://docs.flet-docs.pages.dev/controls/shakedetector).
 
 ## Other improvements
 

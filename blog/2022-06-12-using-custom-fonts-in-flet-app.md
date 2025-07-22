@@ -13,7 +13,7 @@ The following font formats are supported:
 * `.ttf`
 * `.otf`
 
-Use [`page.fonts`](/docs/controls/page#fonts) property to import fonts.
+Use [`page.fonts`](https://docs.flet-docs.pages.dev/controls/page#fonts) property to import fonts.
 
 <!-- truncate -->
 
@@ -80,5 +80,5 @@ However, if you need to use a variable font in your app you can create static "i
 
 To explore available font features (e.g. possible options for `wght`) use [Wakamai Fondue](https://wakamaifondue.com/beta/) online tool.
 
-[Give Flet a try](/docs) and [let us know](https://discord.gg/dzWXP8SHG8) what you think!
+[Give Flet a try](https://docs.flet-docs.pages.dev) and [let us know](https://discord.gg/dzWXP8SHG8) what you think!
 

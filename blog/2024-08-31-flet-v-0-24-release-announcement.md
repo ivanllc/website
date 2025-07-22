@@ -12,26 +12,26 @@ It comes with a very long list of bug fixes, several enhancements and new featur
 
 ## New Controls
 
-- [`InteractiveViewer`](/docs/controls/interactiveviewer)
-- [`Placeholder`](/docs/controls/placeholder)
+- [`InteractiveViewer`](https://docs.flet-docs.pages.dev/controls/interactiveviewer)
+- [`Placeholder`](https://docs.flet-docs.pages.dev/controls/placeholder)
 
 ## New Properties
 
-- [`AudioRecorder`](/docs/controls/audiorecorder): `cancel_recording()`
-- [`Video`](/docs/controls/video): `on_completed`, `on_track_changed`
-- [`InputFilter`](/docs/reference/types/inputfilter): `unicode`, `case_sensitive`, `dot_all`, `multiline`
-- [`Geolocator`](/docs/controls/geolocator): `on_error`, `on_position_change`
-- [`Barchart`](/docs/controls/barchart), [`LineChart`](/docs/controls/linechart): `tooltip_border_side`, `tooltip_direction`, `tooltip_fit_inside_horizontally`, `tooltip_fit_inside_vertically`, `tooltip_horizontal_offset`, `tooltip_margin`, `tooltip_max_content_width`, `tooltip_padding`, `tooltip_rounded_radius`, `tooltip_rotate_angle`
-- [`Container`](/docs/controls/container): `decoration`, `foreground_decoration`, `ignore_interactions`, `image`
-- [`Page`](/docs/controls/page), [`View`](/docs/controls/view): `decoration`, `foreground_decoration`
-- [`CupertinoTextField`](/docs/controls/cupertinotextfield): `enable_scribble`, `image`, `obscuring_character`, `padding`, `scroll_padding`, `on_click`
-- [`DataTable`](/docs/controls/datatable): `heading_row_alignment`
-- [`TextField`](/docs/controls/textfield): `counter`, `disabled_hint_content`, `options_fill_horizontally`
-- [`ExpansionTile`](/docs/controls/expansiontile): `min_tile_height`, `show_trailing_icon`
-- [`Markdown`](/docs/controls/markdown): `fit_content`, `img_error_content`, `md_style_sheet`, `shrink_wrap`, `soft_line_break`, `on_selection_change`
-- [`MenuItemButton`](/docs/controls/menuitembutton): `autofocus`, `overflow_axis`, `semantic_label`
-- [`Tabs`](/docs/controls/tabs): `label_padding`, `label_text_style`, `padding`, `splash_border_radius`, `unselected_label_text_style`, `on_click`
-- and lot of [new classes](/docs/reference) (enums, dataclasses, events)…
+- [`AudioRecorder`](https://docs.flet-docs.pages.dev/controls/audiorecorder): `cancel_recording()`
+- [`Video`](https://docs.flet-docs.pages.dev/controls/video): `on_completed`, `on_track_changed`
+- [`InputFilter`](https://docs.flet-docs.pages.dev/reference/types/inputfilter): `unicode`, `case_sensitive`, `dot_all`, `multiline`
+- [`Geolocator`](https://docs.flet-docs.pages.dev/controls/geolocator): `on_error`, `on_position_change`
+- [`Barchart`](https://docs.flet-docs.pages.dev/controls/barchart), [`LineChart`](https://docs.flet-docs.pages.dev/controls/linechart): `tooltip_border_side`, `tooltip_direction`, `tooltip_fit_inside_horizontally`, `tooltip_fit_inside_vertically`, `tooltip_horizontal_offset`, `tooltip_margin`, `tooltip_max_content_width`, `tooltip_padding`, `tooltip_rounded_radius`, `tooltip_rotate_angle`
+- [`Container`](https://docs.flet-docs.pages.dev/controls/container): `decoration`, `foreground_decoration`, `ignore_interactions`, `image`
+- [`Page`](https://docs.flet-docs.pages.dev/controls/page), [`View`](https://docs.flet-docs.pages.dev/controls/view): `decoration`, `foreground_decoration`
+- [`CupertinoTextField`](https://docs.flet-docs.pages.dev/controls/cupertinotextfield): `enable_scribble`, `image`, `obscuring_character`, `padding`, `scroll_padding`, `on_click`
+- [`DataTable`](https://docs.flet-docs.pages.dev/controls/datatable): `heading_row_alignment`
+- [`TextField`](https://docs.flet-docs.pages.dev/controls/textfield): `counter`, `disabled_hint_content`, `options_fill_horizontally`
+- [`ExpansionTile`](https://docs.flet-docs.pages.dev/controls/expansiontile): `min_tile_height`, `show_trailing_icon`
+- [`Markdown`](https://docs.flet-docs.pages.dev/controls/markdown): `fit_content`, `img_error_content`, `md_style_sheet`, `shrink_wrap`, `soft_line_break`, `on_selection_change`
+- [`MenuItemButton`](https://docs.flet-docs.pages.dev/controls/menuitembutton): `autofocus`, `overflow_axis`, `semantic_label`
+- [`Tabs`](https://docs.flet-docs.pages.dev/controls/tabs): `label_padding`, `label_text_style`, `padding`, `splash_border_radius`, `unselected_label_text_style`, `on_click`
+- and lot of [new classes](https://docs.flet-docs.pages.dev/reference) (enums, dataclasses, events)…
 
 ## Enhancements
 - Better string output of Events when printed
@@ -69,10 +69,10 @@ Thanks to all those who reported them!
 
 All deprecated items from this release will be removed in version 0.27.0.
 
-- `ThemeVisualDensity` is deprecated and has been renamed to [`VisualDensity`](/docs/reference/types/visualdensity)
-- [`CupertinoButton`](/docs/controls/cupertinobutton): `disabled_color` is deprecated and has been renamed to `disabled_bgcolor`, which better reflects its use
-- [`Markdown`](/docs/controls/markdown): `code_style` is deprecated and should now be accessed as  `code_style_sheet.code_text_style`
-- [`Container`](/docs/controls/container): `image_fit`, `image_opacity`, `image_repeat`, `image_src` and `image_src_base64` are deprecated and should now be accessed from `image` which is of type [`DecorationImage`](/docs/reference/types/decorationimage)
+- `ThemeVisualDensity` is deprecated and has been renamed to [`VisualDensity`](https://docs.flet-docs.pages.dev/reference/types/visualdensity)
+- [`CupertinoButton`](https://docs.flet-docs.pages.dev/controls/cupertinobutton): `disabled_color` is deprecated and has been renamed to `disabled_bgcolor`, which better reflects its use
+- [`Markdown`](https://docs.flet-docs.pages.dev/controls/markdown): `code_style` is deprecated and should now be accessed as  `code_style_sheet.code_text_style`
+- [`Container`](https://docs.flet-docs.pages.dev/controls/container): `image_fit`, `image_opacity`, `image_repeat`, `image_src` and `image_src_base64` are deprecated and should now be accessed from `image` which is of type [`DecorationImage`](https://docs.flet-docs.pages.dev/reference/types/decorationimage)
 
 ## Breaking Changes and Migration
 
@@ -139,7 +139,7 @@ def main(page: ft.Page):
 ft.app(main)
 ```
 
-In the above code, we subscribe multiple callbacks to the [`Container.on_tap_down`](/docs/controls/container#on_tap_down) event. Prior to Flet version 0.24.0, running this code and tapping on the `Container`, you will see all the callbacks getting called ("1", "2" and "3" are printed out).
+In the above code, we subscribe multiple callbacks to the [`Container.on_tap_down`](https://docs.flet-docs.pages.dev/controls/container#on_tap_down) event. Prior to Flet version 0.24.0, running this code and tapping on the `Container`, you will see all the callbacks getting called ("1", "2" and "3" are printed out).
 From Flet version 0.24.0 going forward, one event = one callback. Meaning only the lastly subscribed callback will get executed ("3" is printed out)
 So, if you still want the final output to resemble the first one you can simply create one callback which calls the others:
 

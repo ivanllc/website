@@ -26,12 +26,6 @@ module.exports = {
       showRunmeLink: false,
       runmeLinkLabel: 'Checkout via Runme'
     },
-    docs: {
-      sidebar: {
-        hideable: true,
-        autoCollapseCategories: true,
-      }
-    },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
@@ -51,9 +45,8 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          html: '<span>Docs</span>',
+          href: "https://docs.flet-docs.pages.dev/",
           position: 'left',
         },
         {
@@ -94,11 +87,13 @@ module.exports = {
           items: [
             {
               label: 'Introduction',
-              to: 'docs',
+              //html: '<span>Introduction</span>',
+              href: "https://docs.flet-docs.pages.dev/",
             },
             {
               label: 'Controls reference',
-              to: 'docs/controls',
+              //html: '<span>Controls Reference</span>',
+              href: "https://docs.flet-docs.pages.dev/controls",
             }
           ],
         },
@@ -163,12 +158,7 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/flet-dev/website/edit/main/',
-        },
+
         blog: {
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
@@ -190,23 +180,23 @@ module.exports = {
   //       //fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
   //       //toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
   //       redirects: [
-  //         // /docs/oldDoc -> /docs/newDoc
+  //         // https://docs.flet-docs.pages.dev/oldDoc -> https://docs.flet-docs.pages.dev/newDoc
   //         {
   //           to: '/docs',
   //           from: '/docs',
   //         },
   //         // Redirect from multiple old paths to the new path
   //         // {
-  //         //   to: '/docs/newDoc2',
-  //         //   from: ['/docs/oldDocFrom2019', '/docs/legacyDocFrom2016'],
+  //         //   to: 'https://docs.flet-docs.pages.dev/newDoc2',
+  //         //   from: ['https://docs.flet-docs.pages.dev/oldDocFrom2019', 'https://docs.flet-docs.pages.dev/legacyDocFrom2016'],
   //         // },
   //       ],
   //       // createRedirects(existingPath) {
   //       //   if (existingPath.includes('/community')) {
-  //       //     // Redirect from /docs/team/X to /community/X and /docs/support/X to /community/X
+  //       //     // Redirect from https://docs.flet-docs.pages.dev/team/X to /community/X and https://docs.flet-docs.pages.dev/support/X to /community/X
   //       //     return [
-  //       //       existingPath.replace('/community', '/docs/team'),
-  //       //       existingPath.replace('/community', '/docs/support'),
+  //       //       existingPath.replace('/community', 'https://docs.flet-docs.pages.dev/team'),
+  //       //       existingPath.replace('/community', 'https://docs.flet-docs.pages.dev/support'),
   //       //     ];
   //       //   }
   //       //   return undefined; // Return a falsy value: no redirect created

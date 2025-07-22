@@ -218,7 +218,7 @@ The following app lifecycle transitions are recognized:
 * `RESTART`
 
 :::note
-Read more about each [lifecycle state](/docs/controls/page#on_app_lifecycle_state_change).
+Read more about each [lifecycle state](https://docs.flet-docs.pages.dev/controls/page#on_app_lifecycle_state_change).
 :::
 
 Here's a small example of how this event can be used: 

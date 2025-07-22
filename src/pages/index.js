@@ -56,7 +56,7 @@ const features = [
     imageUrl: 'img/pages/home/feature-language.svg',
     description: (
       <>
-        Flet is language-agnostic, so anyone on your team could develop Flet apps in their favorite language. <a href="/docs">Python</a> is already supported, Go, C# and others are <a href="/roadmap">coming next</a>.
+        Flet is language-agnostic, so anyone on your team could develop Flet apps in their favorite language. Python is already supported, Go, C# and others are <a href="/roadmap">coming next</a>.
       </>
     ),
   },
@@ -108,7 +108,7 @@ function Home() {
                 <div className={styles.buttons}>
                   <Link
                     className={styles.indexCtasGetStartedButton}
-                    to={useBaseUrl('docs/')}>
+                    to={'https://docs.flet-docs.pages.dev/'}>
                     Get Started
                   </Link>
                 </div>

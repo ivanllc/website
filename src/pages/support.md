@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 ## Documentation
 
-Browse [Flet docs](/docs).
+Browse [Flet docs](https://docs.flet-docs.pages.dev).
 
 ## Discord
 

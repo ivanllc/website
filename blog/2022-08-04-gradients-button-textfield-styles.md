@@ -53,7 +53,7 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
-Check [`LinearGradient`](/docs/reference/types/lineargradient) docs for more information about `LinearGradient` properties.
+Check [`LinearGradient`](https://docs.flet-docs.pages.dev/reference/types/lineargradient) docs for more information about `LinearGradient` properties.
 
 ### Radial gradient
 
@@ -85,7 +85,7 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
-Check [`RadialGradient`](/docs/reference/types/radialgradient) docs for more information about `RadialGradient` properties.
+Check [`RadialGradient`](https://docs.flet-docs.pages.dev/reference/types/radialgradient) docs for more information about `RadialGradient` properties.
 
 ### Sweep gradient
 
@@ -122,7 +122,7 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
-Check [`SweepGradient`](/docs/reference/types/sweepgradient) docs for more information about `SweepGradient` properties.
+Check [`SweepGradient`](https://docs.flet-docs.pages.dev/reference/types/sweepgradient) docs for more information about `SweepGradient` properties.
 
 ## Buttons styling
 
@@ -224,7 +224,7 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
-Check [`ElevatedButton.style`](/docs/controls/elevatedbutton#style) property docs for a complete description of `ButtonStyle` class and its properties.
+Check [`ElevatedButton.style`](https://docs.flet-docs.pages.dev/controls/elevatedbutton#style) property docs for a complete description of `ButtonStyle` class and its properties.
 
 ## TextField and Dropdown styling
 

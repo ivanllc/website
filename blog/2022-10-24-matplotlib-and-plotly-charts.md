@@ -27,8 +27,8 @@ or some multi-chart [contour plot](https://github.com/flet-dev/examples/blob/mai
 
 Check the docs for Matplotlib and Plotly charting controls:
 
-* [MatplotlibChart](/docs/controls/matplotlibchart)
-* [PlotlyChart](/docs/controls/plotlychart)
+* [MatplotlibChart](https://docs.flet-docs.pages.dev/controls/matplotlibchart)
+* [PlotlyChart](https://docs.flet-docs.pages.dev/controls/plotlychart)
 
 Explore [Flet chart examples](https://github.com/flet-dev/examples/tree/main/python/controls/charts).
 

@@ -90,23 +90,23 @@ Click "Go to Store" button and you'll see application URL is changed and a new i
 
 ## Page views
 
-Flet's [Page](/docs/controls/page) now is not just a single page, but a container for [View](/docs/controls/view) layered on top of each other like a sandwich:
+Flet's [Page](https://docs.flet-docs.pages.dev/controls/page) now is not just a single page, but a container for [View](https://docs.flet-docs.pages.dev/controls/view) layered on top of each other like a sandwich:
 
 <img src="/img/docs/navigation-routing/page-views.svg" className="screenshot-100" />
 
-A collection of views represents navigator history. Page has [`page.views`](/docs/controls/page#views) property to access views collection.
+A collection of views represents navigator history. Page has [`page.views`](https://docs.flet-docs.pages.dev/controls/page#views) property to access views collection.
 
 The last view in the list is the one currently displayed on a page. Views list must have at least one element (root view).
 
 To simulate a transition between pages change `page.route` and add a new `View` in the end of `page.view` list.
 
-Pop the last view from the collection and change route to a "previous" one in [`page.on_view_pop`](/docs/controls/page#on_view_pop) event handler to go back.
+Pop the last view from the collection and change route to a "previous" one in [`page.on_view_pop`](https://docs.flet-docs.pages.dev/controls/page#on_view_pop) event handler to go back.
 
 ## Building views on route change
 
 To build a reliable navigation there must be a single place in the program which builds a list of views depending on the current route. Other words, navigation history stack (represented by the list of views) must be a function of a route.
 
-This place is [`page.on_route_change`](/docs/controls/page#on_route_change) event handler.
+This place is [`page.on_route_change`](https://docs.flet-docs.pages.dev/controls/page#on_route_change) event handler.
 
 Let's put everything together into a complete example which allows navigating between two pages:
 
@@ -155,10 +155,10 @@ ft.app(target=main, view=ft.AppView.WEB_BROWSER)
 Try navigating between pages using "Visit Store" and "Go Home" buttons, Back/Forward browser buttons, manually changing route in the URL - it works no matter what! :)
 
 :::note
-To "navigate" between pages we used [`page.go(route)`](/docs/controls/page#goroute) - a helper method that updates [`page.route`](/docs/controls/page#route), calls [`page.on_route_change`](/docs/controls/page#on_route_change) event handler to update views and finally calls `page.update()`.
+To "navigate" between pages we used [`page.go(route)`](https://docs.flet-docs.pages.dev/controls/page#goroute) - a helper method that updates [`page.route`](https://docs.flet-docs.pages.dev/controls/page#route), calls [`page.on_route_change`](https://docs.flet-docs.pages.dev/controls/page#on_route_change) event handler to update views and finally calls `page.update()`.
 :::
 
-Notice the usage of [`page.on_view_pop`](/docs/controls/page#on_view_pop) event handler. It fires when the user clicks automatic "Back" button in [`AppBar`](/docs/controls/appbar) control. In the handler we remove the last element from views collection and navigate to view's root "under" it.
+Notice the usage of [`page.on_view_pop`](https://docs.flet-docs.pages.dev/controls/page#on_view_pop) event handler. It fires when the user clicks automatic "Back" button in [`AppBar`](https://docs.flet-docs.pages.dev/controls/appbar) control. In the handler we remove the last element from views collection and navigate to view's root "under" it.
 
 ## Route templates
 
