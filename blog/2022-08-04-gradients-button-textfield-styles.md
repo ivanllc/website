@@ -321,4 +321,4 @@ def main(page: ft.Page):
 ft.app(target=main)
 ```
 
-[Give Flet a try](/docs) and [let us know](https://discord.gg/dzWXP8SHG8) what you think!
+[Give Flet a try](https://docs.flet-docs.pages.dev) and [let us know](https://discord.gg/dzWXP8SHG8) what you think!
